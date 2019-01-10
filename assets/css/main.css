@@ -1559,7 +1559,6 @@ input, select, textarea {
 		transition: opacity 0.5s ease;
 		position: relative;
 		z-index: 1;
-		overflow: hidden;
 	}
 
 		#wrapper > .bg {
@@ -2122,6 +2121,20 @@ input, select, textarea {
 					box-shadow: 6px 10px 8px 0 #0080a3;
 					filter: brightness(80%)
 				}
+
+			.googleMap > #map {
+				margin-top: 15%;
+				width: 91.2%;
+				height: 69%;
+				padding: 0;
+				border: 3px solid darkgray;
+				border-style: ridge;
+				box-shadow: 6px 10px 8px 0 #0080a3;
+			}
+			#map > iframe {
+				width: 100%;
+				height: 100%;
+			}
 
 /* Footer */
 
