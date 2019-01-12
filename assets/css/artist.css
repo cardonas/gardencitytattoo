@@ -1323,15 +1323,13 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			height: 925px;
-			background-color: #212931;
-			background-image: url("../../images/GCShop.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
-			background-size: 150%,								150%,														150%;
-			background-position: top center,								top center,														top center;
-			background-repeat: no-repeat,								no-repeat,													no-repeat;
-			background-attachment: scroll,								scroll,														scroll;
+			height: 1250px;
+			background-image: url("../../images/GCShop.png");
+			background-size: 150%;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
 			opacity: .33;
-			z-index: -1;
 		}
 
 			#wrapper > .bg.fixed {
