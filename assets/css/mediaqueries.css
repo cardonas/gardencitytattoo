@@ -910,7 +910,7 @@
 }
 
 /* Hide the images by default */
-.mySlides, .mySlides1, .mySlides2{
+.mySlides, .mySlides1, .mySlides2, .mySlides3{
 	display: none;
 }
 
@@ -927,6 +927,11 @@
 }
 
 .mySlides2 img {
+	width: 70%;
+	border: 1px solid white;
+	box-shadow: 6px 10px 8px 0 #0080a3;
+}
+.mySlides3 img {
 	width: 70%;
 	border: 1px solid white;
 	box-shadow: 6px 10px 8px 0 #0080a3;

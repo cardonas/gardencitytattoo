@@ -1323,15 +1323,13 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			height: 925px;
-			background-color: #212931;
-			background-image: url("../../images/GCShop.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
-			background-size: 150%,								150%,														150%;
-			background-position: top center,								top center,														top center;
-			background-repeat: no-repeat,								no-repeat,													no-repeat;
-			background-attachment: scroll,								scroll,														scroll;
+			height: 910px;
+			background-image: url("../../images/GCShop.png");
+			background-size: 150%;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
 			opacity: .33;
-			z-index: -1;
 		}
 
 			#wrapper > .bg.fixed {
@@ -1891,15 +1889,12 @@ input, select, textarea {
 					box-shadow: 6px 10px 8px 0 #0080a3;
 					filter: brightness(80%)
 				}
-			.Map{
-				margin: 0;
-				height: 25em;
-				border-bottom: 2px solid white;
-			}
-			.Map > #map {
-				align-content;
-				width: 100%;
-				height: 80%;
+
+			.googleMap > #map {
+				margin-top: 15%;
+				width: 91.2%;
+				height: 69%;
+				padding: 0;
 				border: 3px solid darkgray;
 				border-style: ridge;
 				box-shadow: 6px 10px 8px 0 #0080a3;
@@ -2263,12 +2258,6 @@ input, select, textarea {
 			font-size: 0.8rem;
 		}
 
-		#footer .form{
-			margin: 0;
-			height: 100%;
-			width: 100%;
-		}
-
 /* Copyright */
 	#copyright {
 		color: #ffffff;
@@ -2499,7 +2488,7 @@ input, select, textarea {
 }
 
 /* Hide the images by default */
-.mySlides, .mySlides1, .mySlides2, .mySlides3{
+.mySlides, .mySlides1, .mySlides2{
 	display: none;
 }
 
@@ -2517,11 +2506,6 @@ input, select, textarea {
 
 .mySlides2 img {
 	width: 70%;
-	border: 1px solid white;
-	box-shadow: 6px 10px 8px 0 #0080a3;
-}
-.mySlides3 img {
-	width: 50%;
 	border: 1px solid white;
 	box-shadow: 6px 10px 8px 0 #0080a3;
 }
